@@ -46,12 +46,12 @@ void moveScreenDown(HDC hdc, int duration) {
 
 int main() {
    
-    if (!showMessageBox("Panzoid by Redhead (GD)", "Do you want to run this malware?", MB_ICONWARNING)) {
+    if (!showMessageBox("malware name by your name", "Do you want to run this malware?", MB_ICONWARNING)) {
         return 0;
     }
 
     
-    if (!showMessageBox("Panzoid by Redhead (GD)", "Are you sure?", MB_ICONWARNING)) {
+    if (!showMessageBox("malware name by your name", "Are you sure?", MB_ICONWARNING)) {
         return 0;
     }
 
